@@ -6,7 +6,11 @@
 		<div class="media-body">
 			<div class="article-metadata">
 				<a class="mr-2" href="#">{{ post.author }}</a>
-				<small class="text-muted">{{ post.date_posted }}</small>
+				<small class="text-muted">{{ post.creation_date|date:"D, d M, Y - h:i A" }}</small>
+				{% comment %} Built in Django Filters using "|" 
+				Refer:
+				https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#built-in-filter-reference
+				https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#date {% endcomment %}
 			</div>
 			<h2><a class="article-title" href="#">{{ post.title }}</a></h2>
 			<p class="article-content">{{ post.content }}</p>

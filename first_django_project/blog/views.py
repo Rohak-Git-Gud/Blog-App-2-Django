@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Post
 
 # from django.http import HttpResponse
 # posts = [
@@ -18,12 +19,18 @@ from django.shortcuts import render
 
 
 def blogHome(req):
+    context = {
+        "posts": Post.objects.all(),
+    }
+    return render(req, "blog/home.html", context)
     # Can send a dictionary of data as context
     # context = {
     #     "posts": posts,
     # }
     # return render(req, "blog/home.html", context)
-    return render(req, "blog/home.html")
+
+    # return render(req, "blog/home.html")
+
     # return HttpResponse("<h1>Blog Home</h1>")
 
 
