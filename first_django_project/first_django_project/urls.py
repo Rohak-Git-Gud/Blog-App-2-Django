@@ -21,6 +21,6 @@ from users import views as userViews
 
 urlpatterns = [
     path("", include("blog.urls")),
-    path("signup/", userViews.usersRegister, name="usersRegister"),  # Alt. Method
+    path("register/", userViews.usersRegister, name="usersRegister"),  # Alt. Method; Temp.
     path("admin/", admin.site.urls),
 ]
