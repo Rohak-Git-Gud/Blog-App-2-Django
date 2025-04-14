@@ -132,3 +132,6 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 LOGIN_REDIRECT_URL = "blogHome"
 
 LOGIN_URL = "usersLogin"
+
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
