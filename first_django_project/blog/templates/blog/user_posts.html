@@ -1,11 +1,10 @@
 {% extends "blog/base.html" %} {% block content %}
-<h1>Blog Home!</h1>
+<h1>Post(s) by - {{ view.kwargs.username }} ({{ page_obj.paginator.count }})</h1>
 	{% for post in posts %}
 	<article class="media content-section">
 		<img src="{{ post.author.profile.image.url }}" alt="{{ post.author.username }} - Image" class="rounded-circle article-img" />
 		<div class="media-body">
 			<div class="article-metadata">
-				<a class="mr-2" href="{% url 'userBlogs' post.author.username %}">{{ post.author }}</a>
 				<small class="text-muted">{{ post.creation_date|date:"D, d M, Y - h:i A" }}</small>
 				{% comment %} Built in Django Filters using "|" Refer:
 				https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#built-in-filter-reference
