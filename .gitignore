@@ -1,8 +1,6 @@
 .Django-venv
-Notes/
 __pycache__/
 migrations/
 db.sqlite3
 media
-res
 OLD_SETTINGS.txt
