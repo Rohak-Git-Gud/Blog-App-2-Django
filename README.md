@@ -48,7 +48,5 @@ To setup the project from this repo:
 - Enhancing the UI with TailwindCSS and/or ShadCN.
 
 ---
-
 > **Courtesy**: [Corey Schafer](https://www.youtube.com/@coreyms).
-
 ---
