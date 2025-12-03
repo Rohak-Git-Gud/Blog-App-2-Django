@@ -1,0 +1,6 @@
+.Django-venv
+__pycache__/
+migrations/
+db.sqlite3
+media
+OLD_SETTINGS.txt
