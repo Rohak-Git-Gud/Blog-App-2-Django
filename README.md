@@ -19,7 +19,7 @@ including models, views, templates, forms, and the Django admin interface.
 
 ## Requirements and Installation Guide
 To run this project, you need to have the following installed:
-- Python 3.11 or above
+- Python 3.13
 
 To setup the project from this repo:
 1. Clone the repository:
