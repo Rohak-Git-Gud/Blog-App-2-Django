@@ -8,7 +8,7 @@ to benchmark decoupled backend architectures against a Express.js counterpart.
 - **Post Listing**: View a list of all blog posts.
 - **Post Detail**: View the details of a specific blog post.
 - **User Authentication**: Register, login, and logout for user management.
-- **Admin Interface**: Easy management of posts via Django’s built-in admin interface (I haven't turned off debug mode because this is a learning oriented project).
+- **Admin Interface**: Easy management of posts via Django’s built-in admin interface.
 
 ## Technologies Used
 - **Django**
