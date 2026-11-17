@@ -1,8 +1,7 @@
 # Blog App - Django
 ## Introduction
-This is a simple blog application built with *Django* as part of a personal study project. \
-The goal of this project was to learn and implement the core concepts of Django, \
-including models, views, templates, forms, and the Django admin interface.
+Reference CMS implementation built with Python, Django and SQLite \
+to benchmark decoupled backend architectures against a Express.js counterpart.
 
 ## Features
 - **Post Creation**: Create, edit, and delete blog posts.
